@@ -1,0 +1,167 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif	;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #357D29;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: #0B2E06;
+	color: #CBA96D;
+	padding-top:20px;
+	padding-bottom:20px;
+	min-height: 40px;
+	border-bottom: #CBA96D 5px solid;
+
+}
+
+header a{
+	color: #CBA96D;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #myname{
+	float: left;
+}
+
+header #myname h3{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+}
+
+header .current a{
+	color: #26BD2B;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #BD8E1F;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background:url('../img/developer.jpg') no-repeat;
+
+	text-align: left;
+	background-size: 1660px 617px;
+	color: #E6D9A3;
+}
+
+#showcase h2{
+	margin-top:100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+
+}
+
+.border{
+	border-top: #CBA96D 5px solid;
+}
+
+#info {
+	color: #15130E;
+	
+}
+
+#info h2{
+	margin-top:50px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#info h3{
+	margin-top:50px;
+	font-size: 35px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;	
+}
+
+.edu, .edu1, .edu2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table, .edu1 {
+	font-family: Tahoma, Geneva, sans-serif	;
+}
+
+.bullet {
+	font-family: Tahoma, Geneva, sans-serif	;
+	text-indent: 50px;
+	font-size: 25px;
+}
+
+.container .indent ul{
+	text-indent: 150px;
+}
+
+#about {
+	font-family: Tahoma, Geneva, sans-serif	;
+	text-indent: 50px;
+	line-height: 2.0;
+	font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #CBA96D;
+  color: #0B2E06;
+  padding: 20px 200px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+footer {
+	font-family: Tahoma, Geneva, sans-serif	;
+	padding: 10px;
+	margin-top: 20px;
+	color: #CBA96D;
+	background-color: #0B2E06;
+	text-align: center;
+	border-top: #CBA96D 5px solid;
+	padding-top:10px;
+}
+
