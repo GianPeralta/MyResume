@@ -20,6 +20,7 @@ header{
 	padding-bottom:20px;
 	min-height: 40px;
 	border-bottom: #CBA96D 5px solid;
+	border-top: #CBA96D 5px solid;
 
 }
 
@@ -163,5 +164,6 @@ footer {
 	text-align: center;
 	border-top: #CBA96D 5px solid;
 	padding-top:10px;
+	border-bottom: #CBA96D 5px solid;
 }
 
