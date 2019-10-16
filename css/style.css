@@ -122,9 +122,10 @@ table, .edu1 {
 	font-size: 25px;
 }
 
-.container .indent ul{
+.container .indent ol {
 	text-indent: 150px;
 }
+
 
 #about {
 	font-family: Tahoma, Geneva, sans-serif	;
@@ -154,6 +155,22 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+ul {
+  padding: 0;
+  border: 1px solid #ddd;
+  border-color: #CBA96D;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 2px solid #ddd;
+  border-color: #CBA96D;
+}
+
+ol.f {
+	list-style-type: decimal;
+}
+
 
 footer {
 	font-family: Tahoma, Geneva, sans-serif	;
